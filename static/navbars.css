@@ -1,0 +1,93 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 160px;
+    margin-bottom: 20px;
+    margin-top: 32px;
+}
+.nav1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.choices1{
+    display: none;
+    gap: 4px; 
+    top: 100%;
+    left: 0px;
+    padding: 6px;
+    width: 320px;
+    height: 168px;
+    font-size: 20px;
+    border-radius: 8px; 
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 4px 16px 0px #00000014;
+}
+.check{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-inline: 16px;
+    padding-bottom: 6px;
+    border-radius: 6px;
+    font-weight: 400; 
+    padding-top: 6px;
+    font-size: 16px;
+    width: 290px;
+    height: 30px;
+    color: #354153;
+    font-family: 'Inter', sans-serif;
+}
+.check input[type="checkbox"] {
+    margin-right: 10px; /* Расстояние между чекбоксом и текстом */
+}
+.filter{
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 50px;
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+    color: #354153;
+    border: none;
+}
+.filter label{
+    margin-bottom: 20px;
+}
+.filter:hover + .choices1, .choices1:hover{
+    display: block;
+}
+.check:hover {
+    background-color: #F2F4F7;
+}
+
+
+.nav2{
+    display: flex;
+    padding-right: 15px;
+    width: 178px;
+    height: 40px;
+    gap: 8px;
+}
+#choices2{
+    gap: 4px;
+    border: 0;
+    padding: 6px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    color: #354153;
+    font-family: 'Inter', sans-serif;
+}
+#choices2 option{
+    gap: 4px;
+    padding: 6px;
+    min-width: 230px;
+    min-height: 128px;  
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px 0px #00000014;
+}
+
